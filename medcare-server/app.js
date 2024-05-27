@@ -10,7 +10,7 @@ const app = express();
 // const uri = `mongodb://${USER_NAME}:${PASSWORD}@cluster0-shard-00-00.kmfwq.mongodb.net:27017,cluster0-shard-00-01.kmfwq.mongodb.net:27017,cluster0-shard-00-02.kmfwq.mongodb.net:27017/MedCare?ssl=true&replicaSet=atlas-a9v4hk-shard-0&authSource=admin&retryWrites=true&w=majority`;
 
 //use the following uri when running local MongoDB server
-const uri = "mongodb://localhost:27017/MedCare";
+const uri = "mongodb://3.111.169.66:27017/MedCare";
 
 mongoose
   .connect(uri, {
